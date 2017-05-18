@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Ask.TechnicalTest.Business.Models;
+using Ask.TechnicalTest.Data.Entities;
 
 namespace Ask.TechnicalTest.Business.Services
 {
