@@ -32,22 +32,22 @@ namespace Ask.TechnicalTest.Data.Migrations
             {
                 Name = "first event",
                 Country = uk,
-                Start = new DateTime(2017, 1, 1),
-                End = new DateTime(2017, 1, 4)
+                Start = new DateTime(DateTime.UtcNow.Year + 1, 1, 1),
+                End = new DateTime(DateTime.UtcNow.Year + 1, 1, 4)
             });
             events.Add(new Event
             {
                 Name = "second event",
                 Country = uk,
-                Start = new DateTime(2017, 2, 1),
-                End = new DateTime(2017, 2, 6)
+                Start = new DateTime(DateTime.UtcNow.Year + 1, 2, 1),
+                End = new DateTime(DateTime.UtcNow.Year + 1, 2, 6)
             });
             events.Add(new Event
             {
                 Name = "third event",
                 Country = spain,
-                Start = new DateTime(2017, 3, 3),
-                End = new DateTime(2017, 2, 6)
+                Start = new DateTime(DateTime.UtcNow.Year + 1, 3, 3),
+                End = new DateTime(DateTime.UtcNow.Year + 1, 2, 6)
             });
         }
     }
