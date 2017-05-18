@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Ask.TechnicalTest.Data.Entities;
+using Ask.TechnicalTest.Business.Models;
 
 namespace Ask.TechnicalTest.Business.Services
 {

@@ -50,6 +50,7 @@
     <Compile Include="Entities\Country.cs" />
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="EventContext.cs" />
+    <Compile Include="Mappings\CountryMapper.cs" />
     <Compile Include="Mappings\EventMapper.cs" />
     <Compile Include="Migrations\201705181013289_Init.cs" />
     <Compile Include="Migrations\201705181013289_Init.Designer.cs">

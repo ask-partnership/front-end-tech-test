@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 using Ask.TechnicalTest.FrontEnd.ViewModels;
 using Ask.TechnicalTest.Business.Services;
@@ -14,9 +15,10 @@ namespace Ask.TechnicalTest.FrontEnd.Controllers
             _eventService = eventService;
         }
 
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
             var viewModel = new EventCollectionViewModel();
+
             return View(viewModel);
         }
     }
