@@ -1,4 +1,4 @@
-# Ask Technical Test
+# AS&K Technical Test
 
 Please read the [Spec](./spec.docx) to know what is required for this test, if you haven't done so already.
 
